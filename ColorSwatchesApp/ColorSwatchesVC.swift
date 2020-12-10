@@ -8,17 +8,25 @@
 
 import UIKit
 
+@available(iOS 14.0, *)
 class ColorSwatchesVC: UIViewController {
-
     
+//MARK: - Properties
+    private var colorPicker = UIColorPickerViewController()
     
+//MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    
-        // Do any additional setup after loading the view.
+
+
     }
-
-
+    
+//MARK: - Methods
+    @IBAction func addColorButtonPressed(_ sender: UIBarButtonItem) {
+    }
+    
 }
+
+//MARK: - Extensions
+
 
