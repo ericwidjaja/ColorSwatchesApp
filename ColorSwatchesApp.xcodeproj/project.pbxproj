@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFA6357F2581B32C00593F62 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6357E2581B32C00593F62 /* ColorCell.swift */; };
 		DFFCBBDC257F188F00BFD7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFCBBDB257F188F00BFD7EB /* AppDelegate.swift */; };
 		DFFCBBDE257F188F00BFD7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFCBBDD257F188F00BFD7EB /* SceneDelegate.swift */; };
 		DFFCBBE0257F188F00BFD7EB /* ColorSwatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFCBBDF257F188F00BFD7EB /* ColorSwatchesVC.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFA6357E2581B32C00593F62 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		DFFCBBD8257F188F00BFD7EB /* ColorSwatchesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSwatchesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFCBBDB257F188F00BFD7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFFCBBDD257F188F00BFD7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				DFFCBBDB257F188F00BFD7EB /* AppDelegate.swift */,
 				DFFCBBDD257F188F00BFD7EB /* SceneDelegate.swift */,
 				DFFCBBDF257F188F00BFD7EB /* ColorSwatchesVC.swift */,
+				DFA6357E2581B32C00593F62 /* ColorCell.swift */,
 				DFFCBBE1257F188F00BFD7EB /* Main.storyboard */,
 				DFFCBBE4257F189000BFD7EB /* Assets.xcassets */,
 				DFFCBBE6257F189000BFD7EB /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFFCBBE0257F188F00BFD7EB /* ColorSwatchesVC.swift in Sources */,
+				DFA6357F2581B32C00593F62 /* ColorCell.swift in Sources */,
 				DFFCBBDC257F188F00BFD7EB /* AppDelegate.swift in Sources */,
 				DFFCBBDE257F188F00BFD7EB /* SceneDelegate.swift in Sources */,
 			);

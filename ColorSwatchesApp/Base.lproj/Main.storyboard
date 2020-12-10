@@ -28,7 +28,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="25i-W5-3eJ">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ColorCell" id="25i-W5-3eJ" customClass="ColorCell" customModule="ColorSwatchesApp" customModuleProvider="target">
                                         <rect key="frame" x="2" y="0.0" width="410" height="130"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="d19-c9-sfk">
@@ -47,6 +47,9 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="410" height="130"/>
+                                        <connections>
+                                            <outlet property="colorImageView" destination="ZbD-lO-tUX" id="ZXr-V8-uFx"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
